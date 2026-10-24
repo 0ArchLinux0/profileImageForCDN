@@ -2,7 +2,7 @@
 
 **Channel:** `squirrelsnow2026`  
 **Format:** 5-card English carousel, 1080×1350 each  
-**Status:** COPY_READY_FOR_VISUAL_QA_ONLY (not approved as a public post)  
+**Status:** DRAFT_FOR_VISUAL_QA (not approved as a public post)  
 **Nature:** General learning strategy, **not** a claim of the owner's personal daily experience.
 
 ## Card copy
@@ -45,7 +45,7 @@ A small self-test can be more useful than another passive read.
 
 ## Caption (copy ready)
 
-I like learning methods that fit into an ordinary day.
+A small learning method for an ordinary day:
 
 One simple approach to try: close your notes, answer a few questions from memory, reopen the page, and correct the missing parts.
 
@@ -56,7 +56,7 @@ Sources: Roediger & Karpicke (2006), https://doi.org/10.1111/j.1467-9280.2006.01
 #LearningInProgress #StudyNotes #RetrievalPractice
 
 ## QA
-- [ ] The first-person phrasing above is general preference, **not** a fabricated claim of a named user action; owner may edit/remove it.
+- [ ] Do not add first-person owner experiences without owner-confirmed facts.
 - [ ] Recheck claims against cited papers and keep the limitations.
 - [ ] All artwork original or licensed; no lecture-page screenshots or personal student data.
 - [ ] Readable with Instagram mobile crop; no too-small card source text.
