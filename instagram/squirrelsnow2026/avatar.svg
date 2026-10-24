@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1024 1024" role="img" aria-labelledby="t d">
+<title id="t">Squirrel Snow — quiet-life avatar</title>
+<desc id="d">A calm russet squirrel under a cream winter moon on a powder-blue snowy background, holding a small white snowflake.</desc>
+<defs>
+<linearGradient id="sky" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#c6dbe5"/><stop offset="1" stop-color="#acc9d9"/></linearGradient>
+<linearGradient id="fur" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#cd8256"/><stop offset="1" stop-color="#a65937"/></linearGradient>
+</defs>
+<rect width="1024" height="1024" fill="url(#sky)"/>
+<circle cx="525" cy="478" r="389" fill="#f8f4e9"/>
+<g fill="#f8f5ec" opacity=".95"><circle cx="136" cy="276" r="10"/><circle cx="828" cy="211" r="12"/><circle cx="863" cy="668" r="8"/><circle cx="183" cy="684" r="8"/><circle cx="923" cy="489" r="8"/></g>
+<path d="M 0 791 Q 220 700 425 805 Q 607 720 807 784 Q 930 729 1024 773 L 1024 1024 L 0 1024 Z" fill="#fffdf4"/>
+<path d="M 105 898 Q 274 831 416 883 M 555 903 Q 735 839 932 891" fill="none" stroke="#d9e5e8" stroke-width="24" stroke-linecap="round"/>
+<path d="M 485 755 C 255 805 168 611 236 455 C 308 295 478 330 480 450 C 466 551 395 586 349 543 C 297 506 343 457 374 463 C 317 392 238 470 281 579 C 321 676 414 665 499 614 Z" fill="#a95735"/>
+<path d="M 447 705 C 292 722 247 584 291 476 C 331 404 385 397 427 428 C 366 435 336 495 352 564 C 371 638 427 639 477 631 Z" fill="#c97848"/>
+<ellipse cx="546" cy="721" rx="184" ry="224" fill="url(#fur)"/>
+<ellipse cx="622" cy="766" rx="90" ry="136" fill="#f7debd"/>
+<path d="M 502 439 L 519 247 Q 582 289 603 383 L 643 239 Q 712 323 707 430 Z" fill="#a75a3a"/>
+<path d="M 537 389 L 544 293 Q 586 339 592 389 Z M 644 388 L 661 291 Q 693 342 680 401 Z" fill="#f3b992"/>
+<ellipse cx="616" cy="492" rx="157" ry="154" fill="#bf7047"/>
+<ellipse cx="677" cy="543" rx="103" ry="87" fill="#f8e4cb"/>
+<circle cx="682" cy="486" r="19" fill="#302d2c"/>
+<circle cx="689" cy="480" r="6" fill="#fff9ea"/>
+<path d="M 763 530 Q 790 539 768 553" fill="#4c3028"/>
+<path d="M 771 557 L 845 544 M 771 566 L 849 571 M 758 577 L 827 602" stroke="#875943" stroke-width="4" stroke-linecap="round" fill="none"/>
+<path d="M 630 657 Q 677 693 733 661" fill="none" stroke="#ae633f" stroke-width="38" stroke-linecap="round"/>
+<g transform="translate(750 682)" stroke="#fefdf7" stroke-width="19" stroke-linecap="round" fill="none">
+<path d="M 0 -63 L 0 63 M -55 -31 L 55 31 M 55 -31 L -55 31"/>
+<path d="M -17 -46 L 0 -29 L 17 -46 M -17 46 L 0 29 L 17 46 M -48 -10 L -31 -5 L -33 -25 M 48 10 L 31 5 L 33 25" stroke-width="9"/>
+</g>
+</svg>
