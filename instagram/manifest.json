@@ -1,0 +1,33 @@
+{
+  "pack_id": "IG-DUO-01",
+  "version": "2026-10-25-draft",
+  "publication_state": "NOT_AUTHORIZED",
+  "handles_verified": false,
+  "accounts": [
+    {
+      "requested_username": "greyvisual2026",
+      "display_name": "Grey Visual | Puzzles & Curiosity",
+      "bio": "Visual puzzles & tiny surprises.\\nGuess first. See why.\\nOriginal reels • simple explanations",
+      "avatar_svg": "instagram/greyvisual2026/avatar.svg",
+      "default_language": "en",
+      "weekly_pilot_posts": 2,
+      "profile_mutation_authorized": false
+    },
+    {
+      "requested_username": "squirrelsnow2026",
+      "display_name": "Squirrel Snow | Life in Progress",
+      "bio": "Learning, building & everyday life.\\nQuiet notes from ordinary days.\\nStudy • work • small experiments",
+      "avatar_svg": "instagram/squirrelsnow2026/avatar.svg",
+      "default_language": "en-simple; optional ko voice",
+      "weekly_pilot_posts": 2,
+      "face_publication_authorized": false,
+      "profile_mutation_authorized": false
+    }
+  ],
+  "published_posts_verified": 0,
+  "account_connections_verified": false,
+  "first_14day_total_targets": 8,
+  "human_gate": "each profile config requires owner confirmation after account auth; each public post requires owner approval",
+  "legacy_metricool_brand_id": 7283977,
+  "next_action": "aside read-only preflight + profile packets + 1 draft pilot asset per channel"
+}
