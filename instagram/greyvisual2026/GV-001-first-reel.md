@@ -2,7 +2,7 @@
 
 **Channel:** `greyvisual2026` (English)  
 **Format:** original 1080×1920 Reel, 24–30 seconds  
-**Status:** SCRIPT_APPROVED_FOR_INTERNAL_QA_ONLY (not approved as a public post)  
+**Status:** DRAFT_FOR_INTERNAL_QA (not approved as a public post)  
 **Source:** exact unit arithmetic, no external clip/stock source.
 
 ## Exact verified claims
