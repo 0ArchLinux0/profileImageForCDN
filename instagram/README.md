@@ -60,6 +60,6 @@ Study • work • small experiments
 - Insights: views and watch where available, reach/non-follower, saves/reach, sends or shares/reach, follows/profile visits where attributable, owner minutes, QA minutes; 24/72h/7d snapshots. Not enough data for significance claims.
 
 ## Canonical decisions
-- [Notion — IG-DUO-01](https://app.notion.com/p/PLACEHOLDER) — control hub; link will be added after creation.
+- [Notion — IG-DUO-01](https://app.notion.com/p/4037b981c514815e9eb1f5f5aacdb658) — control hub; link will be added after creation.
 - [Earlier strategy](https://app.notion.com/p/4037b981c51481dfa697e4e5db64ffb5) — squirrelsnow study/life research, adapted.
-- [Jira KAN-438](https://bluebluerize900.atlassian.net/browse/KAN-438) — execution authority; requires updating to two-track charter.
+- [Jira KAN-438](https://bluebluerize900.atlassian.net/browse/KAN-438) — two-track execution authority.
