@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1024 1024" role="img" aria-labelledby="name desc">
+<title id="name">공부의 여백 — study margin icon</title>
+<desc id="desc">An ivory notebook with a dark margin line, a small terracotta stroke and sage leaves on warm cream.</desc>
+<defs>
+ <linearGradient id="bg" x1=".1" x2=".9" y1=".15" y2=".95"><stop stop-color="#FFFDF7"/><stop offset="1" stop-color="#EEECE2"/></linearGradient>
+ <linearGradient id="page" x1=".2" x2="1" y1="0" y2="1"><stop stop-color="#FFFDF7"/><stop offset="1" stop-color="#F8F5EC"/></linearGradient>
+</defs>
+<circle cx="512" cy="512" r="505" fill="url(#bg)"/>
+<path d="M 691 729 C 764 686, 807 608, 830 519 M 799 609 C 884 556, 902 500, 882 478 C 830 488, 789 544, 799 609 Z M 782 680 C 864 665, 903 628, 906 587 C 852 580, 807 618, 782 680 Z" fill="#A5BAB3" stroke="#8CA6A0" stroke-width="9" stroke-linecap="round"/>
+<path d="M 161 767 C 293 706, 624 735, 800 776 C 675 804, 290 829, 161 767 Z" fill="#A9BBB3" opacity=".7"/>
+<g transform="rotate(-5 505 505)">
+<rect x="261" y="201" width="477" height="628" rx="51" fill="#9BB1AC"/>
+<rect x="285" y="222" width="464" height="628" rx="46" fill="#D4DBD2"/>
+<rect x="312" y="246" width="464" height="610" rx="41" fill="#FAF8F0" stroke="#E6E4D9" stroke-width="9"/>
+<rect x="337" y="257" width="442" height="597" rx="36" fill="url(#page)"/>
+<path d="M 422 283 L 422 823" fill="none" stroke="#294D5A" stroke-width="11" stroke-linecap="round"/>
+<path d="M 579 768 Q 633 737 711 713" fill="none" stroke="#BF815C" stroke-width="18" stroke-linecap="round"/>
+</g>
+</svg>
