@@ -1,0 +1,1229 @@
+{
+  "schema_version": "1.0",
+  "candidate_id": "SS-LEARN-002",
+  "status": "review_candidate",
+  "language": "en",
+  "dimensions": {
+    "width": 1080,
+    "height": 1350
+  },
+  "design": {
+    "palette": {
+      "cream": "#F4F0E6",
+      "blue": "#294D66",
+      "pale_blue": "#DFE8EB",
+      "auburn": "#8B4939",
+      "muted": "#576875",
+      "white": "#FFFDF7"
+    },
+    "direction": "Original editorial math diagrams: proportional bars, denominator spotlight, partitioned base, reverse-check lanes, and transfer cards. Five distinct compositions; no personal report."
+  },
+  "sources": [
+    {
+      "id": "R1",
+      "authors": "Roediger, H. L., & Karpicke, J. D.",
+      "year": 2006,
+      "title": "Test-enhanced learning: Taking memory tests improves long-term retention",
+      "doi": "10.1111/j.1467-9280.2006.01693.x",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/16507066/",
+      "inspection": "Primary study abstract inspected in PubMed search retrieval, 2026-10-25; webfetch returned no readable body. No claim of full-text inspection.",
+      "supports": "In two experiments with prose passages, free recall without feedback outperformed matched restudy on delayed tests at 2 days or 1 week; restudy did better at 5 minutes.",
+      "does_not_establish": "Reflection or journaling alone; this exact three-line routine; universal benefit for all learning tasks. These studies did not test this exact percentage-change example."
+    },
+    {
+      "id": "R2",
+      "authors": "Butler, A. C., Karpicke, J. D., & Roediger, H. L.",
+      "year": 2008,
+      "title": "Correcting a metacognitive error: Feedback increases retention of low-confidence correct responses",
+      "doi": "10.1037/0278-7393.34.4.918",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/18605878/",
+      "inspection": "Primary study abstract inspected in PubMed search retrieval, 2026-10-25; webfetch returned no readable body. No claim of full-text inspection.",
+      "supports": "Two experiments using general-knowledge multiple-choice questions, confidence judgments and final cued recall: feedback improved retention of initial errors and low-confidence correct responses.",
+      "does_not_establish": "Any arbitrary self-check is equivalent to experimentally supplied feedback; this exact routine, timing, dose or application example is validated. These studies did not test this exact percentage-change example."
+    }
+  ],
+  "rights": {
+    "copy": "New original editorial copy for this review candidate. Research is paraphrased, not reproduced.",
+    "illustrations": "All diagrams are original Pillow primitives authored for this candidate; no third-party images or icons.",
+    "fonts": "Unmodified Lato Regular/Bold, SIL OFL1.1, ordinary default zero and verified arrow/math glyph coverage. fonts/Lato-OFL.txt included.",
+    "research": "Citation/abstract inspection does not grant reuse rights to article figures or full text; neither is reproduced.",
+    "private_data": "None. Worked example is explicitly illustrative, not a personal report."
+  },
+  "caption": "ILLUSTRATIVE EXAMPLE: 80 → 100 is +20 units, but +25%. The denominator is the original 80, not the final 100. Although 20 ÷ 100 = 20% is valid arithmetic, it answers a different question: the change as a share of the final value. Check the growth claim backward: 80 × 1.25 = 100; 80 × 1.20 = 96. These are invented quantities, not percentage-valued data or an account of the owner's life.\n\nTry the last card before reading its answers, then compare your reasoning with the worked rule. Keep the original base even when the change is negative.\n\nResearch context, not validation of this exact example: Roediger & Karpicke (2006) studied free recall of prose passages without feedback. Delayed retention at 2 days or 1 week favored testing over restudy; at 5 minutes, restudy did better. Butler, Karpicke & Roediger (2008) used general-knowledge multiple-choice questions, confidence judgments and final cued recall. Feedback improved retention of initial errors and low-confidence correct responses. These findings concern practice and feedback in those settings, not a proven percentage-teaching routine, universal transfer benefit or optimal retest interval. Neither paper tested these cards or these numbers.\n\nSources: Roediger & Karpicke (2006), doi:10.1111/j.1467-9280.2006.01693.x; Butler, Karpicke & Roediger (2008), doi:10.1037/0278-7393.34.4.918. Only abstracts were inspected for the prior candidate; no full-text inspection is claimed.\n\nSave the original-base rule for your next percentage-change question.",
+  "cards": [
+    {
+      "number": 1,
+      "kind": "hook",
+      "title": "80 → 100. That’s +20,\nbut is it +20%?",
+      "subtitle": "The change is 20 units. A percentage needs a base.",
+      "illustrative": true,
+      "texts": [
+        {
+          "id": "eyebrow",
+          "text": "ILLUSTRATIVE EXAMPLE / 1 OF 5",
+          "box": [
+            70,
+            65,
+            1010,
+            107
+          ],
+          "size": 23,
+          "minimum": 19,
+          "bold": true,
+          "color": "auburn",
+          "align": "left"
+        },
+        {
+          "id": "title",
+          "text": "80 → 100. That’s +20,\nbut is it +20%?",
+          "box": [
+            70,
+            145,
+            1010,
+            345
+          ],
+          "size": 66,
+          "minimum": 62,
+          "bold": true,
+          "color": "blue",
+          "align": "left"
+        },
+        {
+          "id": "subtitle",
+          "text": "The change is 20 units. A percentage needs a base.",
+          "box": [
+            70,
+            370,
+            1010,
+            475
+          ],
+          "size": 33,
+          "minimum": 29,
+          "bold": false,
+          "color": "blue",
+          "align": "left"
+        },
+        {
+          "id": "footer",
+          "text": "SQUIRREL / ORIGINAL-BASE CHECK",
+          "box": [
+            70,
+            1230,
+            890,
+            1280
+          ],
+          "size": 22,
+          "minimum": 18,
+          "bold": false,
+          "color": "muted",
+          "align": "left"
+        },
+        {
+          "id": "page-number",
+          "text": "1/5",
+          "box": [
+            950,
+            1230,
+            1020,
+            1280
+          ],
+          "size": 23,
+          "minimum": 19,
+          "bold": true,
+          "color": "blue",
+          "align": "left"
+        },
+        {
+          "id": "start",
+          "text": "START: 80",
+          "box": [
+            70,
+            515,
+            390,
+            560
+          ],
+          "size": 28,
+          "minimum": 24,
+          "bold": true,
+          "color": "blue",
+          "align": "left"
+        },
+        {
+          "id": "end",
+          "text": "END: 100",
+          "box": [
+            70,
+            690,
+            390,
+            735
+          ],
+          "size": 28,
+          "minimum": 24,
+          "bold": true,
+          "color": "blue",
+          "align": "left"
+        },
+        {
+          "id": "delta",
+          "text": "+20 units",
+          "box": [
+            780,
+            865,
+            1010,
+            915
+          ],
+          "size": 29,
+          "minimum": 25,
+          "bold": true,
+          "color": "auburn",
+          "align": "left"
+        },
+        {
+          "id": "question",
+          "text": "20 out of which value?",
+          "box": [
+            70,
+            980,
+            1010,
+            1050
+          ],
+          "size": 46,
+          "minimum": 42,
+          "bold": true,
+          "color": "blue",
+          "align": "left"
+        },
+        {
+          "id": "takeaway",
+          "text": "Choose the original amount before dividing.",
+          "box": [
+            70,
+            1090,
+            1010,
+            1190
+          ],
+          "size": 31,
+          "minimum": 27,
+          "bold": false,
+          "color": "blue",
+          "align": "left"
+        }
+      ],
+      "graphics": [
+        {
+          "id": "bar80",
+          "type": "rect",
+          "box": [
+            70,
+            590,
+            790,
+            655
+          ],
+          "fill": "blue"
+        },
+        {
+          "id": "bar100",
+          "type": "rect",
+          "box": [
+            70,
+            765,
+            970,
+            830
+          ],
+          "fill": "blue"
+        },
+        {
+          "id": "extension",
+          "type": "rect",
+          "box": [
+            790,
+            765,
+            970,
+            830
+          ],
+          "fill": "auburn"
+        },
+        {
+          "id": "change-bracket",
+          "type": "line",
+          "box": [
+            790,
+            850,
+            970,
+            850
+          ],
+          "fill": "auburn"
+        }
+      ],
+      "alt": "Illustrative quantities: aligned bars show 80 and 100, with the extra 20 highlighted. The prompt asks which quantity belongs in the denominator."
+    },
+    {
+      "number": 2,
+      "kind": "denominator",
+      "title": "Right arithmetic.\nWrong base.",
+      "subtitle": "The denominator changes the meaning, not just the answer.",
+      "illustrative": true,
+      "texts": [
+        {
+          "id": "eyebrow",
+          "text": "ILLUSTRATIVE EXAMPLE / 2 OF 5",
+          "box": [
+            70,
+            65,
+            1010,
+            107
+          ],
+          "size": 23,
+          "minimum": 19,
+          "bold": true,
+          "color": "auburn",
+          "align": "left"
+        },
+        {
+          "id": "title",
+          "text": "Right arithmetic.\nWrong base.",
+          "box": [
+            70,
+            145,
+            1010,
+            345
+          ],
+          "size": 66,
+          "minimum": 62,
+          "bold": true,
+          "color": "blue",
+          "align": "left"
+        },
+        {
+          "id": "subtitle",
+          "text": "The denominator changes the meaning, not just the answer.",
+          "box": [
+            70,
+            370,
+            1010,
+            475
+          ],
+          "size": 33,
+          "minimum": 29,
+          "bold": false,
+          "color": "blue",
+          "align": "left"
+        },
+        {
+          "id": "footer",
+          "text": "SQUIRREL / ORIGINAL-BASE CHECK",
+          "box": [
+            70,
+            1230,
+            890,
+            1280
+          ],
+          "size": 22,
+          "minimum": 18,
+          "bold": false,
+          "color": "muted",
+          "align": "left"
+        },
+        {
+          "id": "page-number",
+          "text": "2/5",
+          "box": [
+            950,
+            1230,
+            1020,
+            1280
+          ],
+          "size": 23,
+          "minimum": 19,
+          "bold": true,
+          "color": "blue",
+          "align": "left"
+        },
+        {
+          "id": "wrong-label",
+          "text": "WRONG BASE FOR GROWTH",
+          "box": [
+            100,
+            535,
+            980,
+            580
+          ],
+          "size": 27,
+          "minimum": 23,
+          "bold": true,
+          "color": "cream",
+          "align": "left"
+        },
+        {
+          "id": "wrong-math",
+          "text": "20 ÷ 100 = 20%",
+          "box": [
+            100,
+            625,
+            980,
+            705
+          ],
+          "size": 60,
+          "minimum": 56,
+          "bold": true,
+          "color": "cream",
+          "align": "left"
+        },
+        {
+          "id": "valid",
+          "text": "Valid arithmetic: 20 is 20% of the FINAL 100.",
+          "box": [
+            100,
+            745,
+            960,
+            840
+          ],
+          "size": 32,
+          "minimum": 28,
+          "bold": false,
+          "color": "cream",
+          "align": "left"
+        },
+        {
+          "id": "baseline-label",
+          "text": "GROWTH STARTED AT 80",
+          "box": [
+            100,
+            925,
+            980,
+            970
+          ],
+          "size": 27,
+          "minimum": 23,
+          "bold": true,
+          "color": "auburn",
+          "align": "left"
+        },
+        {
+          "id": "baseline",
+          "text": "Use 80, not 100, as the reference amount.",
+          "box": [
+            100,
+            1005,
+            970,
+            1095
+          ],
+          "size": 38,
+          "minimum": 34,
+          "bold": true,
+          "color": "blue",
+          "align": "left"
+        },
+        {
+          "id": "bottom",
+          "text": "“Of the final value” ≠ “increase from the original.”",
+          "box": [
+            70,
+            1130,
+            1010,
+            1200
+          ],
+          "size": 28,
+          "minimum": 24,
+          "bold": false,
+          "color": "blue",
+          "align": "left"
+        }
+      ],
+      "graphics": [
+        {
+          "id": "wrong-panel",
+          "type": "rounded",
+          "box": [
+            70,
+            505,
+            1010,
+            875
+          ],
+          "fill": "blue"
+        },
+        {
+          "id": "base-panel",
+          "type": "rounded",
+          "box": [
+            70,
+            900,
+            1010,
+            1115
+          ],
+          "fill": "white"
+        }
+      ],
+      "alt": "Illustrative denominator spotlight separates a valid final-value share calculation from the original-value base needed for growth."
+    },
+    {
+      "number": 3,
+      "kind": "partition",
+      "title": "The original is\nthe whole reference.",
+      "subtitle": "Percentage change = (new − original) ÷ original × 100.",
+      "illustrative": true,
+      "texts": [
+        {
+          "id": "eyebrow",
+          "text": "ILLUSTRATIVE EXAMPLE / 3 OF 5",
+          "box": [
+            70,
+            65,
+            1010,
+            107
+          ],
+          "size": 23,
+          "minimum": 19,
+          "bold": true,
+          "color": "auburn",
+          "align": "left"
+        },
+        {
+          "id": "title",
+          "text": "The original is\nthe whole reference.",
+          "box": [
+            70,
+            145,
+            1010,
+            345
+          ],
+          "size": 66,
+          "minimum": 62,
+          "bold": true,
+          "color": "blue",
+          "align": "left"
+        },
+        {
+          "id": "subtitle",
+          "text": "Percentage change = (new − original) ÷ original × 100.",
+          "box": [
+            70,
+            370,
+            1010,
+            475
+          ],
+          "size": 33,
+          "minimum": 29,
+          "bold": false,
+          "color": "blue",
+          "align": "left"
+        },
+        {
+          "id": "footer",
+          "text": "SQUIRREL / ORIGINAL-BASE CHECK",
+          "box": [
+            70,
+            1230,
+            890,
+            1280
+          ],
+          "size": 22,
+          "minimum": 18,
+          "bold": false,
+          "color": "muted",
+          "align": "left"
+        },
+        {
+          "id": "page-number",
+          "text": "3/5",
+          "box": [
+            950,
+            1230,
+            1020,
+            1280
+          ],
+          "size": 23,
+          "minimum": 19,
+          "bold": true,
+          "color": "blue",
+          "align": "left"
+        },
+        {
+          "id": "formula",
+          "text": "(100 − 80) ÷ 80 = 25%",
+          "box": [
+            70,
+            515,
+            1010,
+            600
+          ],
+          "size": 58,
+          "minimum": 54,
+          "bold": true,
+          "color": "blue",
+          "align": "left"
+        },
+        {
+          "id": "base-label",
+          "text": "ORIGINAL 80: FOUR EQUAL PARTS",
+          "box": [
+            70,
+            655,
+            1010,
+            700
+          ],
+          "size": 26,
+          "minimum": 22,
+          "bold": true,
+          "color": "blue",
+          "align": "left"
+        },
+        {
+          "id": "unit0",
+          "text": "20",
+          "box": [
+            82,
+            770,
+            240,
+            825
+          ],
+          "size": 37,
+          "minimum": 33,
+          "bold": true,
+          "color": "blue",
+          "align": "center"
+        },
+        {
+          "id": "unit1",
+          "text": "20",
+          "box": [
+            266,
+            770,
+            424,
+            825
+          ],
+          "size": 37,
+          "minimum": 33,
+          "bold": true,
+          "color": "blue",
+          "align": "center"
+        },
+        {
+          "id": "unit2",
+          "text": "20",
+          "box": [
+            450,
+            770,
+            608,
+            825
+          ],
+          "size": 37,
+          "minimum": 33,
+          "bold": true,
+          "color": "blue",
+          "align": "center"
+        },
+        {
+          "id": "unit3",
+          "text": "20",
+          "box": [
+            634,
+            770,
+            792,
+            825
+          ],
+          "size": 37,
+          "minimum": 33,
+          "bold": true,
+          "color": "blue",
+          "align": "center"
+        },
+        {
+          "id": "unit4",
+          "text": "20",
+          "box": [
+            818,
+            770,
+            976,
+            825
+          ],
+          "size": 37,
+          "minimum": 33,
+          "bold": true,
+          "color": "cream",
+          "align": "center"
+        },
+        {
+          "id": "addition",
+          "text": "+20 is one extra part.",
+          "box": [
+            70,
+            910,
+            1010,
+            970
+          ],
+          "size": 39,
+          "minimum": 35,
+          "bold": true,
+          "color": "blue",
+          "align": "left"
+        },
+        {
+          "id": "quarter",
+          "text": "One part ÷ four original parts = ¼ = 25%.",
+          "box": [
+            70,
+            1005,
+            1010,
+            1090
+          ],
+          "size": 36,
+          "minimum": 32,
+          "bold": false,
+          "color": "blue",
+          "align": "left"
+        },
+        {
+          "id": "rule",
+          "text": "The added 20 does not redefine the original base.",
+          "box": [
+            70,
+            1130,
+            1010,
+            1200
+          ],
+          "size": 29,
+          "minimum": 25,
+          "bold": false,
+          "color": "blue",
+          "align": "left"
+        }
+      ],
+      "graphics": [
+        {
+          "id": "block0",
+          "type": "rect",
+          "box": [
+            70,
+            735,
+            242,
+            870
+          ],
+          "fill": "pale_blue"
+        },
+        {
+          "id": "block1",
+          "type": "rect",
+          "box": [
+            254,
+            735,
+            426,
+            870
+          ],
+          "fill": "pale_blue"
+        },
+        {
+          "id": "block2",
+          "type": "rect",
+          "box": [
+            438,
+            735,
+            610,
+            870
+          ],
+          "fill": "pale_blue"
+        },
+        {
+          "id": "block3",
+          "type": "rect",
+          "box": [
+            622,
+            735,
+            794,
+            870
+          ],
+          "fill": "pale_blue"
+        },
+        {
+          "id": "block4",
+          "type": "rect",
+          "box": [
+            806,
+            735,
+            978,
+            870
+          ],
+          "fill": "auburn"
+        }
+      ],
+      "alt": "Illustrative partition diagram shows four equal 20-unit blocks making the original 80, plus one 20-unit extension. One extra block is one quarter of the original."
+    },
+    {
+      "number": 4,
+      "kind": "reverse",
+      "title": "Check the answer\nbackward.",
+      "subtitle": "Apply each claimed increase to the same original 80.",
+      "illustrative": true,
+      "texts": [
+        {
+          "id": "eyebrow",
+          "text": "ILLUSTRATIVE EXAMPLE / 4 OF 5",
+          "box": [
+            70,
+            65,
+            1010,
+            107
+          ],
+          "size": 23,
+          "minimum": 19,
+          "bold": true,
+          "color": "auburn",
+          "align": "left"
+        },
+        {
+          "id": "title",
+          "text": "Check the answer\nbackward.",
+          "box": [
+            70,
+            145,
+            1010,
+            345
+          ],
+          "size": 66,
+          "minimum": 62,
+          "bold": true,
+          "color": "blue",
+          "align": "left"
+        },
+        {
+          "id": "subtitle",
+          "text": "Apply each claimed increase to the same original 80.",
+          "box": [
+            70,
+            370,
+            1010,
+            475
+          ],
+          "size": 33,
+          "minimum": 29,
+          "bold": false,
+          "color": "blue",
+          "align": "left"
+        },
+        {
+          "id": "footer",
+          "text": "SQUIRREL / ORIGINAL-BASE CHECK",
+          "box": [
+            70,
+            1230,
+            890,
+            1280
+          ],
+          "size": 22,
+          "minimum": 18,
+          "bold": false,
+          "color": "muted",
+          "align": "left"
+        },
+        {
+          "id": "page-number",
+          "text": "4/5",
+          "box": [
+            950,
+            1230,
+            1020,
+            1280
+          ],
+          "size": 23,
+          "minimum": 19,
+          "bold": true,
+          "color": "blue",
+          "align": "left"
+        },
+        {
+          "id": "pass-label",
+          "text": "+25% / REACHES THE TARGET",
+          "box": [
+            100,
+            535,
+            980,
+            575
+          ],
+          "size": 26,
+          "minimum": 22,
+          "bold": true,
+          "color": "blue",
+          "align": "left"
+        },
+        {
+          "id": "pass",
+          "text": "80 × 1.25 = 100",
+          "box": [
+            100,
+            610,
+            980,
+            685
+          ],
+          "size": 58,
+          "minimum": 54,
+          "bold": true,
+          "color": "blue",
+          "align": "left"
+        },
+        {
+          "id": "pass-detail",
+          "text": "Original + 25% of original = 80 + 20.",
+          "box": [
+            100,
+            735,
+            980,
+            790
+          ],
+          "size": 30,
+          "minimum": 26,
+          "bold": false,
+          "color": "blue",
+          "align": "left"
+        },
+        {
+          "id": "fail-label",
+          "text": "+20% / FALLS SHORT",
+          "box": [
+            100,
+            895,
+            980,
+            935
+          ],
+          "size": 26,
+          "minimum": 22,
+          "bold": true,
+          "color": "auburn",
+          "align": "left"
+        },
+        {
+          "id": "fail",
+          "text": "80 × 1.20 = 96",
+          "box": [
+            100,
+            970,
+            980,
+            1045
+          ],
+          "size": 58,
+          "minimum": 54,
+          "bold": true,
+          "color": "blue",
+          "align": "left"
+        },
+        {
+          "id": "fail-detail",
+          "text": "That adds only 16, not 20.",
+          "box": [
+            100,
+            1095,
+            980,
+            1155
+          ],
+          "size": 32,
+          "minimum": 28,
+          "bold": false,
+          "color": "blue",
+          "align": "left"
+        }
+      ],
+      "graphics": [
+        {
+          "id": "success-panel",
+          "type": "rounded",
+          "box": [
+            70,
+            505,
+            1010,
+            815
+          ],
+          "fill": "white"
+        },
+        {
+          "id": "success-track",
+          "type": "rect",
+          "box": [
+            100,
+            835,
+            980,
+            850
+          ],
+          "fill": "blue"
+        },
+        {
+          "id": "fail-panel",
+          "type": "rounded",
+          "box": [
+            70,
+            865,
+            1010,
+            1180
+          ],
+          "fill": "pale_blue"
+        }
+      ],
+      "alt": "Illustrative reverse-check lanes: 25 percent applied to 80 reaches 100; 20 percent reaches only 96."
+    },
+    {
+      "number": 5,
+      "kind": "transfer",
+      "title": "New numbers.\nSame original-base rule.",
+      "subtitle": "Try both before reading the answers below.",
+      "illustrative": true,
+      "texts": [
+        {
+          "id": "eyebrow",
+          "text": "ILLUSTRATIVE EXAMPLE / 5 OF 5",
+          "box": [
+            70,
+            65,
+            1010,
+            107
+          ],
+          "size": 23,
+          "minimum": 19,
+          "bold": true,
+          "color": "auburn",
+          "align": "left"
+        },
+        {
+          "id": "title",
+          "text": "New numbers.\nSame original-base rule.",
+          "box": [
+            70,
+            145,
+            1010,
+            345
+          ],
+          "size": 66,
+          "minimum": 62,
+          "bold": true,
+          "color": "blue",
+          "align": "left"
+        },
+        {
+          "id": "subtitle",
+          "text": "Try both before reading the answers below.",
+          "box": [
+            70,
+            370,
+            1010,
+            475
+          ],
+          "size": 33,
+          "minimum": 29,
+          "bold": false,
+          "color": "blue",
+          "align": "left"
+        },
+        {
+          "id": "footer",
+          "text": "SQUIRREL / ORIGINAL-BASE CHECK",
+          "box": [
+            70,
+            1230,
+            890,
+            1280
+          ],
+          "size": 22,
+          "minimum": 18,
+          "bold": false,
+          "color": "muted",
+          "align": "left"
+        },
+        {
+          "id": "page-number",
+          "text": "5/5",
+          "box": [
+            950,
+            1230,
+            1020,
+            1280
+          ],
+          "size": 23,
+          "minimum": 19,
+          "bold": true,
+          "color": "blue",
+          "align": "left"
+        },
+        {
+          "id": "a-label",
+          "text": "A / 50 → 60",
+          "box": [
+            100,
+            540,
+            490,
+            595
+          ],
+          "size": 37,
+          "minimum": 33,
+          "bold": true,
+          "color": "blue",
+          "align": "left"
+        },
+        {
+          "id": "a-prompt",
+          "text": "What percentage increase?",
+          "box": [
+            100,
+            635,
+            470,
+            730
+          ],
+          "size": 31,
+          "minimum": 27,
+          "bold": false,
+          "color": "blue",
+          "align": "left"
+        },
+        {
+          "id": "b-label",
+          "text": "B / 100 → 80",
+          "box": [
+            590,
+            540,
+            980,
+            595
+          ],
+          "size": 37,
+          "minimum": 33,
+          "bold": true,
+          "color": "blue",
+          "align": "left"
+        },
+        {
+          "id": "b-prompt",
+          "text": "What percentage decrease?",
+          "box": [
+            590,
+            635,
+            960,
+            730
+          ],
+          "size": 31,
+          "minimum": 27,
+          "bold": false,
+          "color": "blue",
+          "align": "left"
+        },
+        {
+          "id": "answer-label",
+          "text": "CHECK YOUR ANSWERS",
+          "box": [
+            70,
+            830,
+            1010,
+            875
+          ],
+          "size": 26,
+          "minimum": 22,
+          "bold": true,
+          "color": "auburn",
+          "align": "left"
+        },
+        {
+          "id": "a-answer",
+          "text": "A: +10 ÷ 50 = +20%",
+          "box": [
+            70,
+            920,
+            1010,
+            980
+          ],
+          "size": 43,
+          "minimum": 39,
+          "bold": true,
+          "color": "blue",
+          "align": "left"
+        },
+        {
+          "id": "b-answer",
+          "text": "B: −20 ÷ 100 = −20%",
+          "box": [
+            70,
+            1010,
+            1010,
+            1075
+          ],
+          "size": 43,
+          "minimum": 39,
+          "bold": true,
+          "color": "blue",
+          "align": "left"
+        },
+        {
+          "id": "transfer-rule",
+          "text": "Different starting values mean different denominators.\nAlways divide the signed change by the original.",
+          "box": [
+            70,
+            1120,
+            1010,
+            1205
+          ],
+          "size": 30,
+          "minimum": 26,
+          "bold": false,
+          "color": "blue",
+          "align": "left"
+        }
+      ],
+      "graphics": [
+        {
+          "id": "test-a",
+          "type": "rounded",
+          "box": [
+            70,
+            505,
+            520,
+            775
+          ],
+          "fill": "pale_blue"
+        },
+        {
+          "id": "test-b",
+          "type": "rounded",
+          "box": [
+            560,
+            505,
+            1010,
+            775
+          ],
+          "fill": "white"
+        },
+        {
+          "id": "answer-divider",
+          "type": "line",
+          "box": [
+            70,
+            800,
+            1010,
+            800
+          ],
+          "fill": "auburn"
+        }
+      ],
+      "alt": "Two illustrative transfer questions ask about 50 to 60 and 100 to 80. Answers below give plus 20 percent using 50 and minus 20 percent using 100."
+    }
+  ],
+  "id": "SS-LEARN-002",
+  "account": "squirrelsnow2026",
+  "format": "carousel",
+  "public_post_approved": false,
+  "state": "AWAITING_OWNER_APPROVAL",
+  "visible_copy_metrics": {
+    "counting_rule": "Whitespace-separated nonempty tokens in actual rendered text, including numeric and symbol tokens, generated labels, and page numbers. Excludes caption, alt text, metadata, and text duplicated outside rendered texts.",
+    "before_per_card": [
+      65,
+      69,
+      69,
+      84,
+      98
+    ],
+    "after_per_card": [
+      47,
+      63,
+      68,
+      58,
+      68
+    ],
+    "before_total": 385,
+    "after_total": 304,
+    "after_before_ratio": 0.7896103896103897,
+    "reduction_percent": 21.038961038961034
+  },
+  "revision": "r2"
+}

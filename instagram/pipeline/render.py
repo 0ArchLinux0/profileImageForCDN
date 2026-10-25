@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """Deterministic offline Instagram media renderer. NEVER posts to a platform."""
 from __future__ import annotations
-import argparse, hashlib, json, re, shutil, subprocess
+import argparse, hashlib, json, os, re, shutil, subprocess
 from pathlib import Path
 from PIL import Image, ImageDraw, ImageFont
 
@@ -10,15 +10,10 @@ BRANDS = {
     'squirrelsnow2026': dict(bg='#C9DFE8', fg='#26363A', accent='#AF623D', muted='#556B71'),
 }
 SIZES = {'reel': (1080, 1920), 'carousel': (1080, 1350)}
-FONTS = ['/usr/share/fonts/truetype/dejavu/DejaVuSans.ttf',
-         '/usr/share/fonts/truetype/liberation2/LiberationSans-Regular.ttf',
-         '/System/Library/Fonts/Supplemental/Arial.ttf']
+from typography import brand_font
 
 def font(size):
-    for path in FONTS:
-        if Path(path).is_file():
-            return ImageFont.truetype(path, size)
-    return ImageFont.load_default()
+    return brand_font(size)
 
 def validate(doc):
     required = ('id', 'account', 'format', 'title', 'rights', 'evidence', 'items')
@@ -40,13 +35,15 @@ def validate(doc):
             raise ValueError('Each item needs heading and detail')
         if doc['format'] == 'reel' and not (2 <= float(item.get('duration', 0)) <= 12):
             raise ValueError('Reel item duration must be 2-12s')
-    if doc.get('public_post_approved') is True:
+    if doc.get('public_post_approved', False) is not False:
         raise ValueError('Publishing approval is tracked outside source spec')
     return doc
 
 def lines_fit(draw, message, face, max_width):
     out, line = [], ''
     for word in message.split():
+        if draw.textbbox((0, 0), word, font=face)[2] > max_width:
+            raise ValueError('Unbreakable text exceeds available width')
         candidate = (line + ' ' + word).strip()
         if draw.textbbox((0, 0), candidate, font=face)[2] > max_width and line:
             out.append(line)
@@ -60,7 +57,12 @@ def lines_fit(draw, message, face, max_width):
 def draw_block(draw, text, xy, width, face, fill, spacing=22):
     x, y = xy
     for line in lines_fit(draw, text, face, width):
-        draw.text((x, y), line, font=face, fill=fill)
+        offset = draw.textbbox((0, 0), line, font=face)
+        origin = (x-offset[0], y)
+        ink = draw.textbbox(origin, line, font=face)
+        if ink[0] < x or ink[2] > x+width:
+            raise ValueError('Text ink exceeds panel width')
+        draw.text(origin, line, font=face, fill=fill)
         y += face.size + spacing
     return y
 
