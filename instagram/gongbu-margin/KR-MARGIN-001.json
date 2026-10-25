@@ -1,0 +1,44 @@
+{
+  "id": "KR-MARGIN-001",
+  "brand": "공부의 여백",
+  "requested_username": "gongbu.margin",
+  "username_verified": false,
+  "format": "carousel",
+  "lang": "ko",
+  "size": [
+    1080,
+    1350
+  ],
+  "state": "DRAFT_NOT_PUBLISHED",
+  "public_post_approved": false,
+  "slides": [
+    {
+      "n": 1,
+      "title": "공부가 끝나도 질문은 남는다.",
+      "subtitle": "오늘의 공부를 내일로 이어주는 작은 기록"
+    },
+    {
+      "n": 2,
+      "title": "오늘 이해한 것",
+      "subtitle": "노트를 덮고 내 말로 한 문장."
+    },
+    {
+      "n": 3,
+      "title": "아직 막히는 것",
+      "subtitle": "그냥 모르겠다 대신 어디서 막혔는지."
+    },
+    {
+      "n": 4,
+      "title": "내일 다시 볼 질문",
+      "subtitle": "답보다 질문을 하나 남겨두기."
+    },
+    {
+      "n": 5,
+      "title": "길게 쓰지 않아도 다시 시작할 수 있도록.",
+      "subtitle": "여기에 공부한 날의 여백을 쌓아가려 해요."
+    }
+  ],
+  "claim_type": "editorial journaling prompt; not empirical or personal diary",
+  "first_person_lived_events": false,
+  "rights": "Original artwork and editorial text, generated portrait-free icon; keep private source media out of Git"
+}
