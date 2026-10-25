@@ -72,7 +72,7 @@ class Drawing:
         p=probability(n);x,w=120,840
         d.rectangle((x,y,x+w,y+h),fill=DARK)
         boundary=x+w*p
-        d.rectangle((x,y,boundary,y+h),fill=ACC)
+        if p>0:d.rectangle((x,y,boundary,y+h),fill=ACC)
         d.rectangle((boundary-1,y,boundary+1,y+h),fill=FG)
         # Exact 50% reference. At69 the crossing is subpixel at this scale;
         # the explicit50.016% readout establishes the strict crossing honestly.
@@ -119,9 +119,10 @@ class Drawing:
             self.text(d,'At least one success?',(84,660,996,770),75,True,min_size=69)
             for k in range(100):
                 r,c=divmod(k,10);x=155+c*78;y=875+r*40
-                d.ellipse((x,y,x+20,y+20),outline=ACC if k<min(100,int(t/2*100)) else DARK,width=3)
+                d.ellipse((x,y,x+20,y+20),outline=MUTED,width=3)
             self.text(d,'What is the chance?',(84,1390,996,1460),54,color=FG)
-            self.text(d,'Equal chances. Independent tries.',(84,1540,996,1600),39,color=MUTED,min_size=35)
+            self.text(d,'Markers = tries, not outcomes.',(84,1490,996,1544),43,color=FG,min_size=40)
+            self.text(d,'Independent tries. Same 1% each time.',(84,1560,996,1610),36,color=MUTED,min_size=33)
         elif t<6:
             self.grow(d,min(68,int((t-2.5)/3.5*69)))
         elif t<9.5:

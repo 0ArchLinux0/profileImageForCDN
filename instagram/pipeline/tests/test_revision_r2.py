@@ -17,6 +17,14 @@ class RevisionR2(unittest.TestCase):
             for ch in '0123456789→−÷×¼%':
                 m=f.getmask(ch)
                 self.assertFalse(m.size==missing.size and bytes(m)==bytes(missing),ch)
+    def test_hook_markers_are_equal_unfilled_tries_not_results(self):
+        art=Drawing(ROOT/'fonts/Lato-Regular.ttf',ROOT/'fonts/Lato-Bold.ttf')
+        im=art.frame(1.)
+        outlines={im.getpixel((165+c*78,875+r*40)) for r in range(10) for c in range(10)}
+        self.assertEqual(len(outlines),1)
+        bg=im.getpixel((1050,1900))
+        self.assertTrue(all(im.getpixel((165+c*78,885+r*40))==bg for r in range(10) for c in range(10)))
+        self.assertTrue(any('not outcomes' in r['text'] for r in art.checked.values()))
     def test_first_strict_crossing_of_half_is_69(self):
         self.assertTrue(all(probability(n)<=.5 for n in range(69)))
         self.assertGreater(probability(69),.5)

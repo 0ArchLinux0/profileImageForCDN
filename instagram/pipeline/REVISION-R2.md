@@ -6,7 +6,7 @@ Scope: revise only the existing GV-003 and SS-LEARN-002 review candidates. Owner
 Lato Regular/Bold replaces the slashed-zero default through typography.py in both quality adapters and the base renderer. Bundled unmodified binaries and Lato-OFL.txt are from https://github.com/google/fonts/tree/main/ofl/lato (SIL OFL 1.1). Default zero has a clear center at the diagnostic size in both weights. Required arrow and math glyphs are checked against the missing-glyph mask. Font side bearings are accounted for in actual ink-bound positioning. Old Atkinson binaries are retained for provenance, not used by the revised defaults. A preliminary Noto Sans preview failed arrow-glyph coverage and was rejected before final output; it is not bundled as the chosen font.
 
 ## Grey: 29 seconds to 22 seconds
-- 0–2.5s: establish the same independent 1% model and show a proportional area rather than simulated outcomes.
+- 0–2.5s: establish the same independent 1% model with 100 identical unfilled markers explicitly labelled as tries, not outcomes. No success-colored subset or simulation; proportional chance area starts in the next beat.
 - 2.5–6s: compact counter/area progression to 68.
 - 6–9.5s: hold 69 tries, first strictly above 50%: 50.016%; show 68 tries: 49.51% for comparison. Exact probabilities are 1 − 0.99^n; displayed percentages are rounded.
 - 9.5–12.5s: compact progression from 69 to 100.
@@ -26,7 +26,7 @@ The two existing DOI records remain in the caption, with abstract-only evidence 
 python3 -m unittest discover -s tests -v
 python3 quality/build.py --candidate-only --out /absolute/output/path
 ```
-The candidate-only flag intentionally avoids baseline/extra renders. 18 tests pass before the full encoded build. Render-time source hashes, font hashes, versions, logs and decoded-media QC are recorded by the build. Historical production tool versions and source-byte identity for GV-001/SS-001 remain UNKNOWN; this revision does not change that finding.
+The candidate-only flag intentionally avoids baseline/extra renders. 19 tests pass before the full encoded build. Render-time source hashes, font hashes, versions, logs and decoded-media QC are recorded by the build. Historical production tool versions and source-byte identity for GV-001/SS-001 remain UNKNOWN; this revision does not change that finding.
 
 ## Approval and unresolved review
 Both candidates remain REVISE and public_post_approved=false. Technical QC PASS is not creative approval or publication authority.
