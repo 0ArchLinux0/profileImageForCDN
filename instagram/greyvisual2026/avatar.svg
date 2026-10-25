@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1024 1024" role="img" aria-labelledby="t d">
+<title id="t">Grey Visual — geometric visual-puzzle avatar</title>
+<desc id="d">An architectural impossible-cube illusion in shades of warm gray with two subtle chartreuse details on a charcoal background.</desc>
+<defs>
+<linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#303333"/><stop offset="1" stop-color="#191d1f"/></linearGradient>
+<linearGradient id="beam" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#f5f1e8"/><stop offset="1" stop-color="#c7c8c3"/></linearGradient>
+<linearGradient id="face" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#a8a9a4"/><stop offset="1" stop-color="#555b5a"/></linearGradient>
+</defs>
+<rect width="1024" height="1024" fill="url(#bg)"/>
+<g transform="translate(512 512)">
+<path d="M 0 -334 L 304 -160 L 223 -114 L 0 -240 L -223 -114 L -304 -160 Z" fill="#f4f1ea"/>
+<path d="M -304 -160 L -304 184 L -222 138 L -222 -112 Z" fill="#dbd9d2"/>
+<path d="M 304 -160 L 304 184 L 222 137 L 222 -112 Z" fill="url(#face)"/>
+<path d="M -304 184 L 0 354 L 0 259 L -222 138 Z" fill="#9fa49f"/>
+<path d="M 304 184 L 0 354 L 0 259 L 222 137 Z" fill="#777f7a"/>
+<path d="M -222 -112 L 0 15 L 0 112 L -304 -62 L -304 -160 Z" fill="#ebe9e3"/>
+<path d="M 0 15 L 223 -114 L 223 -20 L 0 112 Z" fill="#bebfba"/>
+<path d="M -222 138 L 0 12 L 0 111 L -222 236 L -304 184 Z" fill="#e0e0da"/>
+<path d="M 0 12 L 223 138 L 304 184 L 222 231 L 0 107 Z" fill="#a7b2af"/>
+<path d="M 0 -240 L 0 -140 L 222 -13 L 222 -112 Z" fill="#888f8c"/>
+<path d="M -223 -114 L -145 -69 L -75 -109 L -154 -153 Z" fill="#d9e49b"/>
+<path d="M 222 137 L 304 184 L 224 229 L 146 184 Z" fill="#dbe49f"/>
+<path d="M -222 138 L -144 182 L -144 -71 L -222 -112 Z" fill="#717b79"/>
+<path d="M 223 -114 L 145 -69 L 145 182 L 223 138 Z" fill="#646d6c"/>
+</g>
+</svg>

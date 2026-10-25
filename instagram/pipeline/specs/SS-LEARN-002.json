@@ -1,0 +1,40 @@
+{
+  "id": "SS-LEARN-002",
+  "account": "squirrelsnow2026",
+  "format": "carousel",
+  "title": "A tiny end-of-day learning check",
+  "rights": "original_or_licensed_verified",
+  "evidence": [
+    "editorial illustration, not owner diary",
+    "retrieval practice review: Dunlosky et al. 2013, DOI 10.1177/1529100612453266"
+  ],
+  "public_post_approved": false,
+  "caption": "A simple end-of-day reflection: What did you work on? What was confusing? What would you test next? An illustrative checklist, not a record of anyone's actual day. #LearningInProgress",
+  "items": [
+    {
+      "heading": "A day doesn't need a perfect plan",
+      "emphasis": "3 small notes",
+      "detail": "A tiny reflection template."
+    },
+    {
+      "heading": "What did I do?",
+      "emphasis": "1 sentence",
+      "detail": "Write what you actually attempted."
+    },
+    {
+      "heading": "What got confusing?",
+      "emphasis": "One obstacle",
+      "detail": "Name a real question, not just a mood."
+    },
+    {
+      "heading": "What changes tomorrow?",
+      "emphasis": "One test",
+      "detail": "Pick one small adjustment to try."
+    },
+    {
+      "heading": "Leave it imperfect",
+      "emphasis": "Keep going",
+      "detail": "Example checklist. No productivity guarantees."
+    }
+  ]
+}

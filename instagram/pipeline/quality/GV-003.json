@@ -1,0 +1,94 @@
+{
+  "id": "GV-003",
+  "account": "greyvisual2026",
+  "format": "reel",
+  "version": "r2",
+  "state": "AWAITING_OWNER_APPROVAL",
+  "public_post_approved": false,
+  "language": "en",
+  "title": "69 tries: the first time a 1% chance passes 50%",
+  "dimensions": [
+    1080,
+    1920
+  ],
+  "fps": 30,
+  "duration": 22,
+  "probability": {
+    "p": 0.01,
+    "trials": 100,
+    "assumptions": [
+      "Independent trials",
+      "Identical 1% success probability per trial"
+    ],
+    "calculation": "P(at least one success) = 1 - (1 - 0.01)^100",
+    "exact_value": 0.6339676587267709,
+    "rounded": "63.4%",
+    "none_rounded": "36.6%",
+    "not_claimed": [
+      "Not 63 successes out of 100 trials",
+      "Not guaranteed success",
+      "Not an empirical simulation"
+    ],
+    "first_trial_over_half": 69,
+    "p68": 0.49511411121293036,
+    "p69": 0.500162970100801
+  },
+  "evidence": [
+    {
+      "type": "exact_arithmetic",
+      "url": null,
+      "proof": "Complement rule with independent Bernoulli trials: P(no success) = 0.99^100. Therefore P(at least one) = 1 - 0.99^100."
+    }
+  ],
+  "rights": {
+    "visuals": "Original Pillow geometry and animation code authored for this candidate.",
+    "audio": "Original generated sine-pulse sound cues; no stock music, samples, speech or footage.",
+    "font": "Unmodified Lato Regular/Bold, SIL OFL1.1, ordinary default zero. Shared typography applies to both brands and future renders.",
+    "private_data": "None. No actual people or personal diary claimed."
+  },
+  "caption": "A 1% chance per try. When does the chance of at least one success first pass 50%?\n\nWith the same 1% chance on every independent try:\n68 tries: 1 - 0.99^68 ≈ 49.51%.\n69 tries: 1 - 0.99^69 ≈ 50.016%, the first time above 50%.\n100 tries: 1 - 0.99^100 ≈ 63.4%.\n\nWhy? The chance of no successes is 0.99^n. Subtract that from1. The colored area shows a probability, not the number of successful tries or a simulated result.\n\nIndependence and an identical 1% chance matter. These are model probabilities, not a guarantee. Original code-drawn animation and synthesized sound cues.\n\n#VisualMath #Probability #Curiosity",
+  "beats": [
+    {
+      "seconds": [
+        0,
+        2.5
+      ],
+      "meaning": "1% each try, 100 independent tries, at least one success?"
+    },
+    {
+      "seconds": [
+        2.5,
+        6
+      ],
+      "meaning": "Fast exact integer-trial probability area growth from0 through68."
+    },
+    {
+      "seconds": [
+        6,
+        9.5
+      ],
+      "meaning": "Hold69trials,50.016%, first above50%; compare68trials49.51%."
+    },
+    {
+      "seconds": [
+        9.5,
+        12.5
+      ],
+      "meaning": "Probability area grows from69 to100trials."
+    },
+    {
+      "seconds": [
+        12.5,
+        16.5
+      ],
+      "meaning": "Hold63.4% at least one,36.6% none; direct complement explanation."
+    },
+    {
+      "seconds": [
+        16.5,
+        22
+      ],
+      "meaning": "Exact curve and 1−0.99^100 proof, independent equal-p assumption."
+    }
+  ]
+}
