@@ -1,0 +1,43 @@
+{
+  "id": "GV-003",
+  "account": "greyvisual2026",
+  "format": "reel",
+  "title": "A 1% chance, repeated 100 times",
+  "rights": "original_or_licensed_verified",
+  "evidence": [
+    "calculation: 1-(0.99**100) = 0.6339676587",
+    "assumption: independent identical 1% chances"
+  ],
+  "public_post_approved": false,
+  "caption": "A 1% chance in each independent try: after 100 tries, the chance of at least one success is about 63.4%. Formula: 1 - 0.99^100. The independence assumption matters. #VisualMath #Probability",
+  "items": [
+    {
+      "heading": "A 1% chance",
+      "emphasis": "100 tries?",
+      "detail": "How likely is at least one success?",
+      "duration": 4
+    },
+    {
+      "heading": "One try",
+      "emphasis": "1%",
+      "detail": "Very unlikely in a single attempt.",
+      "duration": 4
+    },
+    {
+      "heading": "100 independent tries",
+      "emphasis": "63.4%",
+      "detail": "Chance of at least one success.",
+      "duration": 5,
+      "figure": "probability_grid",
+      "highlight_cells": 63,
+      "footer": "Illustrative probability, not 100 outcomes."
+    },
+    {
+      "heading": "Why?",
+      "emphasis": "1 - 0.99^100",
+      "detail": "Subtract the chance of zero successes.",
+      "duration": 5,
+      "footer": "Independent trials are the key assumption."
+    }
+  ]
+}
