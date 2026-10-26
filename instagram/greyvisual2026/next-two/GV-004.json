@@ -1,0 +1,110 @@
+{
+  "content_id": "GV-004",
+  "status": "BRIEF_READY_NOT_RENDERED_NOT_POSTED",
+  "account": "greyvisual2026",
+  "working_title": "Same perimeter. Different area.",
+  "format": "reel",
+  "language": "en",
+  "target_seconds": 19,
+  "canvas": [
+    1080,
+    1920
+  ],
+  "fps": 30,
+  "default_audio": "silent",
+  "topic_pillar": "Shape",
+  "question": "Which rectangle holds more area if both perimeters equal 100?",
+  "assumptions": [
+    "Flat rectangles with side lengths in common length units",
+    "Both shapes drawn at the same physical pixel-per-unit scale",
+    "Perimeter fixed at 100 units",
+    "Area measured in square units"
+  ],
+  "math_model": {
+    "rectangle_A": {
+      "width": 10,
+      "height": 40,
+      "perimeter": 100,
+      "area": 400
+    },
+    "rectangle_B": {
+      "width": 25,
+      "height": 25,
+      "perimeter": 100,
+      "area": 625
+    },
+    "area_difference": 225,
+    "area_relative_increase_percent": 56.25,
+    "variable_relation": "width+height=50",
+    "area_function": "A(w)=w*(50-w)",
+    "maximum_at_width": 25,
+    "algebra_proof": "A(w)=625-(w-25)**2 ≤625, for 0<w<50"
+  },
+  "storyboard": [
+    {
+      "t": [
+        0,
+        2.3
+      ],
+      "purpose": "Hook",
+      "main_text": "SAME PERIMETER.",
+      "secondary_text": "Which shape holds more?",
+      "motion": "Two neutral outlines of 10×40 and 25×25 side by side on IDENTICAL pixel-per-unit scale, no area labels; tiny labels 10×40 and25×25."
+    },
+    {
+      "t": [
+        2.3,
+        5.1
+      ],
+      "purpose": "Lock perimeter",
+      "main_text": "BOTH = 100",
+      "secondary_text": "Perimeter: 2(w+h).",
+      "motion": "Trace the outer edges with one traveling highlight; widths and heights clearly annotated."
+    },
+    {
+      "t": [
+        5.1,
+        9.2
+      ],
+      "purpose": "Reveal area",
+      "main_text": "400 vs 625",
+      "secondary_text": "Same boundary. More inside.",
+      "motion": "Fill each shape with identical-size unit cells, right shape visibly 56.25% more area than left. Contrast color does not change size meaning."
+    },
+    {
+      "t": [
+        9.2,
+        14.2
+      ],
+      "purpose": "Demonstrate why",
+      "main_text": "Keep w + h = 50.",
+      "secondary_text": "Stretch one side. Shrink the other.",
+      "motion": "Morph a rectangle continuously from w10,h40 to w25,h25 with P=100 maintained every frame; area grows via A=w(50-w), numeric label follows exact geometry."
+    },
+    {
+      "t": [
+        14.2,
+        19
+      ],
+      "purpose": "Payoff",
+      "main_text": "SQUARE = MAX AREA",
+      "secondary_text": "Among rectangles with perimeter 100.",
+      "motion": "Pause at square w25,h25; render clean A=625 and P=100. Close with visual, not a long equation."
+    }
+  ],
+  "cover": {
+    "main": "SAME PERIMETER.",
+    "sub": "WHICH HAS MORE AREA?",
+    "small": "Shape / visual reasoning"
+  },
+  "caption": "Two rectangles can have exactly the same perimeter but different areas.\n\n10 × 40 → perimeter 100, area 400\n25 × 25 → perimeter 100, area 625\n\nFor rectangles with perimeter 100, width + height = 50, so area is w(50 − w). That is greatest when width and height are both 25.\n\nThe square has 225 more square units of area in this comparison. The drawing uses the same scale for both shapes.\n\n#GreyVisual #Geometry #VisualMath #MathPuzzle",
+  "qa_critical": [
+    "At EVERY morph frame w+h=50 (perimeter=100)",
+    "Use consistent pixel-per-unit (do not falsely equalize drawn sizes)",
+    "Areas 400 and 625 units²; absolute difference 225",
+    "Maximum only 'among rectangles with a fixed perimeter', not all possible shapes",
+    "Use same visual scale and camera fixed",
+    "Safe margins, phone scale, original geometry/code, asset hashes"
+  ],
+  "publication_gate": "OWNER_MUST_APPROVE_EXACT_FINAL_MP4_CAPTION_COVER_AND_PUBLISH_SEPARATELY"
+}
