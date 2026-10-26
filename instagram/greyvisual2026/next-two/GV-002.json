@@ -38,8 +38,8 @@
       ],
       "purpose": "Hook",
       "main_text": "23 PEOPLE.",
-      "secondary_text": "50% chance of the same birthday?",
-      "motion": "Show 23 equally sized date-neutral discs entering as a group; no random wins drawn."
+      "secondary_text": "ANY TWO SHARE A BIRTHDAY?",
+      "motion": "Show exactly 23 equal-size date-neutral discs and label ANY TWO in the same first 2.5s; no randomly colored observed success."
     },
     {
       "t": [
@@ -94,7 +94,7 @@
   ],
   "cover": {
     "main": "23 PEOPLE.",
-    "sub": "A 50% BIRTHDAY MATCH?",
+    "sub": "ANY TWO SHARE A BIRTHDAY?",
     "small": "Chance / visual reasoning"
   },
   "caption": "How many people does it take for the chance of a shared birthday to pass 50%?\n\nJust 23.\n\nThis means at least TWO people in the group share a birthday—not that someone matches yours. In the simplified model of independent, equally likely birthdays across 365 dates:\n22 people → about 47.6%\n23 people → about 50.7%\n\nWhy? First calculate the chance that every birthday is different. Then subtract from 1.\n\nIt’s probability, not a simulated party or a guarantee. Actual birthday frequencies are not perfectly uniform.\n\n#GreyVisual #BirthdayParadox #Probability #VisualMath",
