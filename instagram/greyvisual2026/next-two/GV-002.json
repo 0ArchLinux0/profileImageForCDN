@@ -1,0 +1,110 @@
+{
+  "content_id": "GV-002",
+  "status": "BRIEF_READY_NOT_RENDERED_NOT_POSTED",
+  "account": "greyvisual2026",
+  "working_title": "23 people. A 50% chance of matching birthdays?",
+  "format": "reel",
+  "language": "en",
+  "target_seconds": 23,
+  "canvas": [
+    1080,
+    1920
+  ],
+  "fps": 30,
+  "default_audio": "silent",
+  "topic_pillar": "Chance",
+  "question": "Among 23 people, what is the chance at least two share a birthday?",
+  "assumptions": [
+    "Independent birthdays across people",
+    "Each birthday equally likely among 365 calendar days",
+    "Leap day omitted",
+    "This is any matching pair, not one person matching YOUR birthday"
+  ],
+  "math_model": {
+    "formula": "1 - product((365-k)/365 for k in range(n))",
+    "n10_pct": 11.694818,
+    "n20_pct": 41.143838,
+    "n22_pct": 47.569531,
+    "n23_pct": 50.729723,
+    "first_n_above_50": 23,
+    "unordered_pairs_n23": 253,
+    "critical_caveat": "253 pair comparisons are not 253 independent trials"
+  },
+  "storyboard": [
+    {
+      "t": [
+        0,
+        2.5
+      ],
+      "purpose": "Hook",
+      "main_text": "23 PEOPLE.",
+      "secondary_text": "ANY TWO SHARE A BIRTHDAY?",
+      "motion": "Show exactly 23 equal-size date-neutral discs and label ANY TWO in the same first 2.5s; no randomly colored observed success."
+    },
+    {
+      "t": [
+        2.5,
+        6
+      ],
+      "purpose": "Comparisons",
+      "main_text": "ANY matching pair.",
+      "secondary_text": "Not necessarily your birthday.",
+      "motion": "Person discs populate as new pair connections are traced selectively; reveal 253 possible pairs without simulating outcomes; never imply pairs independent."
+    },
+    {
+      "t": [
+        6,
+        10.5
+      ],
+      "purpose": "Exact cumulative model",
+      "main_text": "Match probability grows.",
+      "secondary_text": "10 people: 11.7% · 20 people: 41.1%",
+      "motion": "Drive n and P(match) curve from same exact product model; markers at n10 and n20."
+    },
+    {
+      "t": [
+        10.5,
+        14.5
+      ],
+      "purpose": "50% threshold",
+      "main_text": "22 people: 47.6%",
+      "secondary_text": "23 people: 50.7%",
+      "motion": "Animate n22→n23 crossing 50% line; hold legible frame >=2.2 sec."
+    },
+    {
+      "t": [
+        14.5,
+        19.5
+      ],
+      "purpose": "Why",
+      "main_text": "First: all birthdays DIFFERENT.",
+      "secondary_text": "Then subtract from 1.",
+      "motion": "Show count of available birthdays shrinking 365,364,363,...343 as n increases, avoid showing all factors tiny."
+    },
+    {
+      "t": [
+        19.5,
+        23
+      ],
+      "purpose": "Payoff + model limitation",
+      "main_text": "23 PEOPLE → 50.7%",
+      "secondary_text": "Independent, equally likely dates (365-day model).",
+      "motion": "Return to 23 neutral discs with one large probability label. Seamless close with no fake coincidences."
+    }
+  ],
+  "cover": {
+    "main": "23 PEOPLE.",
+    "sub": "ANY TWO SHARE A BIRTHDAY?",
+    "small": "Chance / visual reasoning"
+  },
+  "caption": "How many people does it take for the chance of a shared birthday to pass 50%?\n\nJust 23.\n\nThis means at least TWO people in the group share a birthday—not that someone matches yours. In the simplified model of independent, equally likely birthdays across 365 dates:\n22 people → about 47.6%\n23 people → about 50.7%\n\nWhy? First calculate the chance that every birthday is different. Then subtract from 1.\n\nIt’s probability, not a simulated party or a guarantee. Actual birthday frequencies are not perfectly uniform.\n\n#GreyVisual #BirthdayParadox #Probability #VisualMath",
+  "qa_critical": [
+    "n=22 <0.5 and n=23 >0.5 tests",
+    "Visual pair network is not displayed as independent Bernoulli trials",
+    "All on-screen math from one deterministic function",
+    "No simulated observed match invented",
+    "Safe margins, normal 0, phone scale 360px, original drawing, asset hash",
+    "Distinct from GV-003: people/pairs and threshold mechanism vs one-event repetition"
+  ],
+  "publication_gate": "OWNER_MUST_APPROVE_EXACT_FINAL_MP4_CAPTION_COVER_AND_PUBLISH_SEPARATELY"
+}
